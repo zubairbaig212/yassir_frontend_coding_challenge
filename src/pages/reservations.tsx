@@ -92,6 +92,7 @@ export default function Reservations() {
       );
       setReservations(upcomingReservations);
     } catch (error) {
+      // eslint-disable-next-line
       console.log(error);
     }
   };
@@ -102,6 +103,7 @@ export default function Reservations() {
   */
   useEffect(() => {
     getReservations();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   /*
@@ -156,6 +158,7 @@ export default function Reservations() {
         await reservationApiService.getReservationsBySearchFilter(filterParams);
       setReservations(response);
     } catch (error) {
+      // eslint-disable-next-line
       console.log(error);
     }
   };

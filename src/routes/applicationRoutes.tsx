@@ -40,6 +40,7 @@ const AppRoutes = () => {
    */
   const applicationRoutes = useMemo(() => {
     return <Routes>{renderRoutes(routeUtilService.applicationRoutes)}</Routes>;
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   /**

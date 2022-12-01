@@ -102,11 +102,12 @@ Following instructions will get you a copy of the project up and running on your
 
    - Now, you need to start your Json server by command
 
+
    ```
    $ `yarn json-server -w -p 3500 mock_data/db.json
    ```
 
-   You can acess your application route
+   You can acess your application via these routes
 
    - [Backend](http://localhost:3500/reservations)
    - [Mock_Data](https://gist.github.com/jappaa/5e7c48768af1eb721d9e2e1d874cd9a0)
