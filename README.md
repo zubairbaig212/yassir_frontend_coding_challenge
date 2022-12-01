@@ -1,9 +1,5 @@
-<!-- TABLE OF CONTENTS -->
-<div align="center">
-  <a href="https://yassir.com/wp-content/uploads/logo.svg">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-  <h3 align="center">Upcoming Reservation</h3>
+<div align="center"> 
+  <h3 align="center">Upcoming Reservation - Yassir</h3>
 </div>
 
 <details>
@@ -90,13 +86,13 @@ Following instructions will get you a copy of the project up and running on your
    ```
 3. Start project by running following commands
 
-   After cloning the project, you then need to install packages by following command
+   After cloning the project, you then need to install yarn
 
    ```
    $ yarn install
    ```
 
-   once node_modules gets installed, you need to run next command
+   Once you have installed the node_modules, now you need to run next command to start your app
 
    ```
    $ yarn start
@@ -110,7 +106,10 @@ Following instructions will get you a copy of the project up and running on your
    $ `yarn json-server -w -p 3500 mock_data/db.json
    ```
 
+   You can acess your application route
+
    - [Backend](http://localhost:3500/reservations)
+   - [Mock_Data](https://gist.github.com/jappaa/5e7c48768af1eb721d9e2e1d874cd9a0)
    - [frontend](http://localhost:3000)
 
 ## Features
