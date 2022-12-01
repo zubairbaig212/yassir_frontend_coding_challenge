@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 1rem 2rem;
+}
+:root {
+  --primary: #ff7d00;
+  --green: #00ab35;
+  --info: #0dcaf0;
+  --disabled: #f8f9fa;
+  --secondary: #6c757d;
+  --warning: #ffc107;
+  --white: #ffff;
+  --lightgray: lightgray;
+}
+/*
+   * NOTE: Here we are overriding .btn-primary class.
+   */
+.btn-primary {
+  border-color: var(--primary) !important;
+  background-color: var(--primary);
+}
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:hover {
+  border-color: var(--white) !important;
+  background-color: var(--primary);
+  box-shadow: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+thead {
+  background: var(--lightgray);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.d-flex {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.flex-between {
+  display: flex;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+/*
+   * NOTE: Here we are updating scrollbar-thumb.
+   */
+::-webkit-scrollbar {
+  width: 0.6rem;
+  background-color: rgba(45, 10, 10, 0);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--lightgray);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*
+   * NOTE: Here we are providing classes for reservation list status.
+   */
+.bg-success {
+  color: var(--green) !important;
+}
+.bg-warning {
+  color: var(--warning) !important;
+}
+.bg-secondary {
+  color: var(--secondary) !important;
+}
+.bg-info {
+  color: var(--info) !important;
+}
+.bg-disabled {
+  color: var(--disabled) !important;
+}
+
+/* svg css */
+.filter-icon {
+  margin-top: 30px;
+  display: flex;
+}
+.date-filter {
+  height: 56px;
+  width: 170px;
+  margin-top: 8px;
+  font-size: 20px;
+  text-align: center;
+  border-color: rgba(0, 0, 0, 0.23);
 }

@@ -1,0 +1,57 @@
+.banner {
+  position: relative;
+  margin-top: 1rem;
+  width: 100%;
+  height: 100%;
+}
+.background {
+  height: 100%;
+}
+img {
+  width: 100%;
+  border-radius: 20px;
+}
+.content {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 3;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.title {
+  color: var(--white);
+}
+.title p {
+  text-align: center;
+  padding: 0 30vw;
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+.title h1 {
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 280px) and (max-width: 980px) {
+  .banner {
+    height: 25rem;
+  }
+  .background img {
+    height: 100%;
+  }
+  .content .title h1 {
+    font-size: 1rem;
+  }
+  .content .title p {
+    font-size: 1rem;
+    padding: 1vw;
+  }
+}
