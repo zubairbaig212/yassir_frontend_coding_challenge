@@ -1,3 +1,29 @@
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#contact">Contact</a></li>
+
+  </ol>
+</details>
+## About The Project
+
+List of upcoming reservation with some exciting filters to search without typing
+Here is the short overview of application and some feature which are given below
+
+- Search by name and surname
+- Sort by asc and desc order
+- Filter records by using dropdowns
 
 ## Getting Started
 
@@ -5,39 +31,35 @@ Upcoming reservation app with some filters to make easier for them to search cus
 Restaurant owners are one of our services’ users. To help them manage their business better,
 I have built an interface to display upcoming reservations, so that they can take action on them.
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-
-- yarn
-
-  ```sh
-  yarn add
-  ```
-
 ### Installation
 
 Following instructions will get you a copy of the project up and running on your local machine for development purpose.
 
 1. Clone the repo
-   ```sh
-   git clone https://github.com/zubairbaig212/yassir_frontend_coding_challenge
+
    ```
+   $ git clone https://github.com/zubairbaig212/yassir_frontend_coding_challenge.git
+   ```
+
 2. Install YARN packages
-   ```sh
-   yarn add
+
    ```
+   $ yarn install
+   ```
+
 3. Start project by running following commands
 
-```sh
-yarn start
-```
-
-4. Now, you need to start your Json server by command
-
    ```sh
-   yarn json-server -w -p 3500 mock_data/db.json
+   $ yarn start
    ```
+
+4. Json-server command
+
+   ```
+   $ yarn json-server -w -p 3500 mock_data/db.json
+   ```
+
+   You need to run above command to start your json-server
 
 ## Usage
 
@@ -48,34 +70,34 @@ yarn start
 
 2. Clone the repository by running this following command
    ```
-   $ git clone https://github.com/zubairbaig212/yassir_frontend_coding_challenge
+   $ git clone https://github.com/zubairbaig212/yassir_frontend_coding_challenge.git
    ```
 3. Start project by running following commands
 
-   # `After cloning the project, you then need to install packages by following command`
+   After cloning the project, you then need to install packages by following command
 
-   ### `yarn install`
+   ```
+   $ yarn install
+   ```
 
    once node_modules gets installed, you need to run next command
 
-   ### `yarn start`
+   ```
+   $ yarn start
+   ```
 
 4. Once your app is running, you can access it on the following address in your browser
 
    - Now, you need to start your Json server by command
 
-   ### `yarn json-server -w -p 3500 mock_data/db.json`
+   ```
+   $ `yarn json-server -w -p 3500 mock_data/db.json
+   ```
 
-   Hit above command and now your server is ready
-
-   - Backend
-   - [http://localhost:3500/reservations]
-   - Frontend
-   - [http://localhost:3000]
+   - [Backend](http://localhost:3500/reservations)
+   - [frontend](http://localhost:3000)
 
 ## Features
-
-Features I have used in this project
 
 - List Reservations
 - User can search by name and surname, filter and sort reservations
@@ -99,11 +121,11 @@ npm@8.5.0 or higher
 
 Your Name - [Zubair_Baig](https://zubair-baig-portfolio.herokuapp.com/) - zubair.baig212@gmail.com
 
-Project Link: [https://github.com/zubairbaig212/yassir_frontend_code_challenge](https://github.com/zubairbaig212/yassir_frontend_code_challenge)
+Project Link: [Upcoming Reservation](https://github.com/zubairbaig212/yassir_frontend_coding_challenge)
 
 ## Improvement
 
-### features need to be implement for improvement
+### Features need to be implement for improvement
 
 - Add E2E test cases.
 - Add Unit test cases.
@@ -117,25 +139,3 @@ Project Link: [https://github.com/zubairbaig212/yassir_frontend_code_challenge](
 ## About Me
 
 Hey, I'm Muhammad Zubair Baig Computer engineer graduate working as software developer for about 4 years, I am a great communicator, a solid team worker, and a collaborator. I have experience working on time-sensitive projects, dealing with difficult challenges, and communicating with customers and clients.
-
-<!-- ### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-``` -->
