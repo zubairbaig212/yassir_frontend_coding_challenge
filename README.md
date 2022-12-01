@@ -1,4 +1,11 @@
 <!-- TABLE OF CONTENTS -->
+<div align="center">
+  <a href="https://yassir.com/wp-content/uploads/logo.svg">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
+  <h3 align="center">Upcoming Reservation</h3>
+</div>
+
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -12,10 +19,19 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
+     <li>
+      <a href="#features">features</a>
+      <ul>
+        <li><a href="#versions">versions</a></li>
+      </ul>
+    </li>
     <li><a href="#contact">Contact</a></li>
+    <li><a href="#improvement">Improvement</a></li>
+    <li><a href="#about-me">About Me</a></li>
 
   </ol>
 </details>
+
 ## About The Project
 
 List of upcoming reservation with some exciting filters to search without typing
@@ -119,7 +135,7 @@ npm@8.5.0 or higher
 
 ## Contact
 
-Your Name - [Zubair_Baig](https://zubair-baig-portfolio.herokuapp.com/) - zubair.baig212@gmail.com
+Portfolio [Zubair_Baig](https://zubair-baig-portfolio.herokuapp.com/) - zubair.baig212@gmail.com
 
 Project Link: [Upcoming Reservation](https://github.com/zubairbaig212/yassir_frontend_coding_challenge)
 
